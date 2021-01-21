@@ -64,15 +64,6 @@ a {
   height: 100px;
 }
 
-.header-top__logo {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 33px;
-  letter-spacing: 2.5px;
-  color: #171717;
-}
-
 .header-top__link {
   font-style: normal;
   font-weight: 400;
@@ -368,3 +359,8 @@ a {
   margin-left: 30px;
 }
 /*SECTION POST end*/
+
+/*FOOTER*/
+.footer__inner {
+  text-align: center;
+}
