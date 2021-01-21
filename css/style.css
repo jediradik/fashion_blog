@@ -180,11 +180,14 @@ a {
 /*SLIDER end*/
 
 /*SECTION POST*/
-
-.post__left {
-  width: 70%;
+.post__inner {
   display: flex;
-  justify-content: space-around;
+}
+/*left*/
+.post__left {
+  width: 67%;
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -233,5 +236,95 @@ a {
   margin-left: 15px;
   margin-right: 4px;
   color: #B4B4B4;
+}
+/*sidebar*/
+.sidebar {
+  max-width: 270px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.sidebar__toptitle,
+.sidebar__middletitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #171717;
+  border: 1px solid #E5E5E5;
+  padding: 15px 70px 14px 70px;
+  margin-bottom: 20px;
+}
+
+.info-block {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.info-block__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #171717;
+  margin-top: 15px;
+}
+
+.info-block__subtitle {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #B1B1B1;
+  margin-top: 4px;
+  margin-bottom: 14px;
+}
+
+.info-block__text {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #666666;
+  max-width: 230px;
+  margin: 0 auto;
+}
+
+.info-block__link {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #C9A96E;
+  padding: 12px 78px 12px 78px;
+  border-top: 1px solid #B1B1B1;
+  margin: 14px 2px 0 2px ;
+}
+
+.categories__box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #B1B1B1;
+}
+
+.categories__box + .categories__box {
+  margin-top: 14px;
+}
+
+.categorie,
+.number {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #666666;
 }
 /*SECTION POST end*/
