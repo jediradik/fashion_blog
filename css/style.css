@@ -489,6 +489,14 @@ a {
   .post__item img {
     width: 100%;
   }
+
+  .header-top__link {
+    transition: none;
+  }
+
+  .header-top__link:hover {
+    transition: none;
+  }
 }
 
 @media (max-width: 600px) {
