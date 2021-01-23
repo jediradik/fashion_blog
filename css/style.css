@@ -70,10 +70,12 @@ a {
   font-size: 14px;
   line-height: 19px;
   color: #171717;
+  transition: all 0.3s;
 }
 
 .header-top__link:hover {
   color: #C9A96E;
+  transition: all 0.3s;
 }
 
 .header-top__link-active {
@@ -168,9 +170,17 @@ a {
 .slick-dots .slick-active button {
   background-color: #ffffff;
 }
+
+.slider__item.slick-slide {
+  outline: none;
+}
 /*SLIDER end*/
 
 /*SECTION POST*/
+.post {
+  margin-top: 60px;
+}
+
 .post__inner {
   display: flex;
 }
@@ -189,10 +199,12 @@ a {
   max-width: 370px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+  transition: all 0.5s;
 }
 
 .post__item:hover {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
 }
 
 .post__info {
@@ -235,6 +247,29 @@ a {
   margin-right: 4px;
   color: #B4B4B4;
 }
+
+/*SINGLE-POST*/
+.single-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.single-text__top {
+  margin-bottom: 20px;
+}
+
+.single-text__bottom {
+  margin-bottom: 10px;
+}
+
+.single-text__img {
+  margin-bottom: 16px;
+  max-width: 100%;
+}
+/*SINGLE-POST end*/
 /*sidebar*/
 .sidebar {
   max-width: 270px;
@@ -386,6 +421,12 @@ a {
   font-size: 14px;
   line-height: 18px;
   color: #666666;
+  transition: all 0.3s;
+}
+
+.footer__link:hover {
+  color: #C9A96E;
+  transition: all 0.3s;
 }
 
 .footer__item + .footer__item {
@@ -475,7 +516,7 @@ a {
     padding-top: 20px;
     min-height: 100vh;
     z-index: 5;
-    transition: all 1s;
+    transition: all 0.5s;
   }
 
   .header-top__list {
